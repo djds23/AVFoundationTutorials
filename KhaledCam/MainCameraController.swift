@@ -18,7 +18,7 @@ class MainCameraController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Try switching this to AVCaptureSessionPresetHigh
-        captureSession.sessionPreset = AVCaptureSessionPresetLow
+        captureSession.sessionPreset = AVCaptureSessionPresetHigh
         let devices = AVCaptureDevice.devices()
         print(devices)
         for device in devices {
