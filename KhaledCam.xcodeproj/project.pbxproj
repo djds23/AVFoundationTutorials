@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B77D9C31C2C930300E5CF0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B77D9C21C2C930300E5CF0D /* AppDelegate.swift */; };
+		7B77D9C51C2C930300E5CF0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B77D9C41C2C930300E5CF0D /* ViewController.swift */; };
+		7B77D9C81C2C930300E5CF0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B77D9C61C2C930300E5CF0D /* Main.storyboard */; };
+		7B77D9CA1C2C930300E5CF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B77D9C91C2C930300E5CF0D /* Assets.xcassets */; };
+		7B77D9CD1C2C930300E5CF0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B77D9CB1C2C930300E5CF0D /* LaunchScreen.storyboard */; };
+		7B77D9D81C2C930300E5CF0D /* KhaledCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B77D9D71C2C930300E5CF0D /* KhaledCamTests.swift */; };
+		7B77D9E31C2C930300E5CF0D /* KhaledCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B77D9E21C2C930300E5CF0D /* KhaledCamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B77D9D41C2C930300E5CF0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B77D9B71C2C930300E5CF0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B77D9BE1C2C930300E5CF0D;
+			remoteInfo = KhaledCam;
+		};
+		7B77D9DF1C2C930300E5CF0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B77D9B71C2C930300E5CF0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B77D9BE1C2C930300E5CF0D;
+			remoteInfo = KhaledCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B77D9BF1C2C930300E5CF0D /* KhaledCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KhaledCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B77D9C21C2C930300E5CF0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B77D9C41C2C930300E5CF0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B77D9C71C2C930300E5CF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B77D9C91C2C930300E5CF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B77D9CC1C2C930300E5CF0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B77D9CE1C2C930300E5CF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B77D9D31C2C930300E5CF0D /* KhaledCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KhaledCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B77D9D71C2C930300E5CF0D /* KhaledCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhaledCamTests.swift; sourceTree = "<group>"; };
+		7B77D9D91C2C930300E5CF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B77D9DE1C2C930300E5CF0D /* KhaledCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KhaledCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B77D9E21C2C930300E5CF0D /* KhaledCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhaledCamUITests.swift; sourceTree = "<group>"; };
+		7B77D9E41C2C930300E5CF0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B77D9BC1C2C930300E5CF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B77D9D01C2C930300E5CF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B77D9DB1C2C930300E5CF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B77D9B61C2C930300E5CF0D = {
+			isa = PBXGroup;
+			children = (
+				7B77D9C11C2C930300E5CF0D /* KhaledCam */,
+				7B77D9D61C2C930300E5CF0D /* KhaledCamTests */,
+				7B77D9E11C2C930300E5CF0D /* KhaledCamUITests */,
+				7B77D9C01C2C930300E5CF0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B77D9C01C2C930300E5CF0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B77D9BF1C2C930300E5CF0D /* KhaledCam.app */,
+				7B77D9D31C2C930300E5CF0D /* KhaledCamTests.xctest */,
+				7B77D9DE1C2C930300E5CF0D /* KhaledCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B77D9C11C2C930300E5CF0D /* KhaledCam */ = {
+			isa = PBXGroup;
+			children = (
+				7B77D9C21C2C930300E5CF0D /* AppDelegate.swift */,
+				7B77D9C41C2C930300E5CF0D /* ViewController.swift */,
+				7B77D9C61C2C930300E5CF0D /* Main.storyboard */,
+				7B77D9C91C2C930300E5CF0D /* Assets.xcassets */,
+				7B77D9CB1C2C930300E5CF0D /* LaunchScreen.storyboard */,
+				7B77D9CE1C2C930300E5CF0D /* Info.plist */,
+			);
+			path = KhaledCam;
+			sourceTree = "<group>";
+		};
+		7B77D9D61C2C930300E5CF0D /* KhaledCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B77D9D71C2C930300E5CF0D /* KhaledCamTests.swift */,
+				7B77D9D91C2C930300E5CF0D /* Info.plist */,
+			);
+			path = KhaledCamTests;
+			sourceTree = "<group>";
+		};
+		7B77D9E11C2C930300E5CF0D /* KhaledCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B77D9E21C2C930300E5CF0D /* KhaledCamUITests.swift */,
+				7B77D9E41C2C930300E5CF0D /* Info.plist */,
+			);
+			path = KhaledCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B77D9BE1C2C930300E5CF0D /* KhaledCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B77D9E71C2C930300E5CF0D /* Build configuration list for PBXNativeTarget "KhaledCam" */;
+			buildPhases = (
+				7B77D9BB1C2C930300E5CF0D /* Sources */,
+				7B77D9BC1C2C930300E5CF0D /* Frameworks */,
+				7B77D9BD1C2C930300E5CF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KhaledCam;
+			productName = KhaledCam;
+			productReference = 7B77D9BF1C2C930300E5CF0D /* KhaledCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B77D9D21C2C930300E5CF0D /* KhaledCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B77D9EA1C2C930300E5CF0D /* Build configuration list for PBXNativeTarget "KhaledCamTests" */;
+			buildPhases = (
+				7B77D9CF1C2C930300E5CF0D /* Sources */,
+				7B77D9D01C2C930300E5CF0D /* Frameworks */,
+				7B77D9D11C2C930300E5CF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B77D9D51C2C930300E5CF0D /* PBXTargetDependency */,
+			);
+			name = KhaledCamTests;
+			productName = KhaledCamTests;
+			productReference = 7B77D9D31C2C930300E5CF0D /* KhaledCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B77D9DD1C2C930300E5CF0D /* KhaledCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B77D9ED1C2C930300E5CF0D /* Build configuration list for PBXNativeTarget "KhaledCamUITests" */;
+			buildPhases = (
+				7B77D9DA1C2C930300E5CF0D /* Sources */,
+				7B77D9DB1C2C930300E5CF0D /* Frameworks */,
+				7B77D9DC1C2C930300E5CF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B77D9E01C2C930300E5CF0D /* PBXTargetDependency */,
+			);
+			name = KhaledCamUITests;
+			productName = KhaledCamUITests;
+			productReference = 7B77D9DE1C2C930300E5CF0D /* KhaledCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B77D9B71C2C930300E5CF0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dean Silfen";
+				TargetAttributes = {
+					7B77D9BE1C2C930300E5CF0D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7B77D9D21C2C930300E5CF0D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7B77D9BE1C2C930300E5CF0D;
+					};
+					7B77D9DD1C2C930300E5CF0D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7B77D9BE1C2C930300E5CF0D;
+					};
+				};
+			};
+			buildConfigurationList = 7B77D9BA1C2C930300E5CF0D /* Build configuration list for PBXProject "KhaledCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B77D9B61C2C930300E5CF0D;
+			productRefGroup = 7B77D9C01C2C930300E5CF0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B77D9BE1C2C930300E5CF0D /* KhaledCam */,
+				7B77D9D21C2C930300E5CF0D /* KhaledCamTests */,
+				7B77D9DD1C2C930300E5CF0D /* KhaledCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B77D9BD1C2C930300E5CF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B77D9CD1C2C930300E5CF0D /* LaunchScreen.storyboard in Resources */,
+				7B77D9CA1C2C930300E5CF0D /* Assets.xcassets in Resources */,
+				7B77D9C81C2C930300E5CF0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B77D9D11C2C930300E5CF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B77D9DC1C2C930300E5CF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B77D9BB1C2C930300E5CF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B77D9C51C2C930300E5CF0D /* ViewController.swift in Sources */,
+				7B77D9C31C2C930300E5CF0D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B77D9CF1C2C930300E5CF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B77D9D81C2C930300E5CF0D /* KhaledCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B77D9DA1C2C930300E5CF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B77D9E31C2C930300E5CF0D /* KhaledCamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B77D9D51C2C930300E5CF0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B77D9BE1C2C930300E5CF0D /* KhaledCam */;
+			targetProxy = 7B77D9D41C2C930300E5CF0D /* PBXContainerItemProxy */;
+		};
+		7B77D9E01C2C930300E5CF0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B77D9BE1C2C930300E5CF0D /* KhaledCam */;
+			targetProxy = 7B77D9DF1C2C930300E5CF0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B77D9C61C2C930300E5CF0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B77D9C71C2C930300E5CF0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B77D9CB1C2C930300E5CF0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B77D9CC1C2C930300E5CF0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B77D9E51C2C930300E5CF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B77D9E61C2C930300E5CF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B77D9E81C2C930300E5CF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KhaledCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silfen.KhaledCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B77D9E91C2C930300E5CF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KhaledCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silfen.KhaledCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B77D9EB1C2C930300E5CF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KhaledCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silfen.KhaledCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KhaledCam.app/KhaledCam";
+			};
+			name = Debug;
+		};
+		7B77D9EC1C2C930300E5CF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KhaledCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silfen.KhaledCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KhaledCam.app/KhaledCam";
+			};
+			name = Release;
+		};
+		7B77D9EE1C2C930300E5CF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KhaledCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silfen.KhaledCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KhaledCam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7B77D9EF1C2C930300E5CF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KhaledCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.silfen.KhaledCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KhaledCam;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B77D9BA1C2C930300E5CF0D /* Build configuration list for PBXProject "KhaledCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B77D9E51C2C930300E5CF0D /* Debug */,
+				7B77D9E61C2C930300E5CF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B77D9E71C2C930300E5CF0D /* Build configuration list for PBXNativeTarget "KhaledCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B77D9E81C2C930300E5CF0D /* Debug */,
+				7B77D9E91C2C930300E5CF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B77D9EA1C2C930300E5CF0D /* Build configuration list for PBXNativeTarget "KhaledCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B77D9EB1C2C930300E5CF0D /* Debug */,
+				7B77D9EC1C2C930300E5CF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B77D9ED1C2C930300E5CF0D /* Build configuration list for PBXNativeTarget "KhaledCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B77D9EE1C2C930300E5CF0D /* Debug */,
+				7B77D9EF1C2C930300E5CF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B77D9B71C2C930300E5CF0D /* Project object */;
+}
